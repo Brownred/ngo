@@ -95,7 +95,7 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden pb-4">
             <a href="/" className="block py-2 text-gray-600 hover:text-primary">Home</a>
-            <a href="/projects" className="block py-2 text-gray-600 hover:text-primary">Our Work</a>
+            
             <a href="/about" className="block py-2 text-gray-600 hover:text-primary">About Us</a>
             <a href="/contact" className="block py-2 text-gray-600 hover:text-primary">Contact</a>
             <Link href={'/contact'} className="mt-4 w-full bg-primary text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors">
