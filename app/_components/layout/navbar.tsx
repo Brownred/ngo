@@ -9,6 +9,7 @@ import {
   NavigationMenuList
 //   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
+import Link from 'next/link';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,9 +76,9 @@ const Navbar = () => {
           </div>
 
           {/* Donate Button */}
-          <button className="hidden md:block bg-primary text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors">
+          <Link href='/contact' className="hidden md:block bg-primary text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors">
             Join Us
-          </button>
+          </Link>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
@@ -97,9 +98,9 @@ const Navbar = () => {
             <a href="/projects" className="block py-2 text-gray-600 hover:text-primary">Our Work</a>
             <a href="/about" className="block py-2 text-gray-600 hover:text-primary">About Us</a>
             <a href="/contact" className="block py-2 text-gray-600 hover:text-primary">Contact</a>
-            <button className="mt-4 w-full bg-primary text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors">
+            <Link href={'/contact'} className="mt-4 w-full bg-primary text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors">
               Join Us
-            </button>
+            </Link>
           </div>
         )}
       </div>

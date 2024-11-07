@@ -1,3 +1,4 @@
+import HomeIntroSection from "./_components/sections/briefInfo";
 import CurrentProjects from "./_components/sections/currentProjects";
 // import GeographicalFocus from "./_components/sections/GeographicalFocus";
 import HeroSection from "./_components/sections/hero";
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <>
     <HeroSection />
+    <HomeIntroSection />
     <ImpactSection />
     <CurrentProjects />
     <SponsorsPartners />

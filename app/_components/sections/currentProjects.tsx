@@ -8,10 +8,10 @@ import {
   MapPin,
   Users,
   Target,
-  ChevronRight,
   HandHeart,
   Clock
 } from 'lucide-react';
+import Link from 'next/link';
 
 const ProjectCard = ({ project, onSelect }: {project: any, onSelect: any}) => (
   <div 
@@ -20,7 +20,7 @@ const ProjectCard = ({ project, onSelect }: {project: any, onSelect: any}) => (
   >
     <div className="relative">
       <img
-        src={`https://picsum.photos/400/250`}
+        src={`/sp5.png`}
         alt={project.title}
         className="w-full h-48 object-cover rounded-t-xl"
       />
@@ -91,7 +91,7 @@ const ProjectDetails = ({ project, onClose }: {project: any, onClose: any}) => (
         </div>
 
         <img
-          src={`https://picsum.photos/800/400`}
+          src={`/sp5.png`}
           alt={project.title}
           className="w-full h-64 object-cover rounded-xl mb-6"
         />
@@ -126,14 +126,14 @@ const ProjectDetails = ({ project, onClose }: {project: any, onClose: any}) => (
         </div>
 
         <div className="flex flex-wrap gap-4">
-          <button className="bg-primary hover:bg-green-700 text-white px-6 py-3 rounded-lg flex items-center gap-2">
+          <Link href='/contact' className="bg-primary hover:bg-green-700 text-white px-6 py-3 rounded-lg flex items-center gap-2">
             Support This Project
             <HandHeart className="w-5 h-5" />
-          </button>
-          <button className="border border-primary text-primary hover:bg-blue-50 px-6 py-3 rounded-lg flex items-center gap-2">
+          </Link>
+          {/* <button className="border border-primary text-primary hover:bg-blue-50 px-6 py-3 rounded-lg flex items-center gap-2">
             Learn More
             <ChevronRight className="w-5 h-5" />
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img
-                src="https://picsum.photos/50/50"
+                src="/logo.jpg"
                 alt="BSDC Logo"
                 className="h-12 w-12 rounded-full"
               />

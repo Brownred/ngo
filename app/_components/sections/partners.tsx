@@ -5,6 +5,7 @@ import {
   Globe, 
   ArrowRight,
 } from 'lucide-react';
+import Link from 'next/link';
 
 const SponsorsPartners = () => {
 
@@ -139,14 +140,14 @@ const SponsorsPartners = () => {
                   <span>Strategic project implementation</span>
                 </li>
               </ul>
-              <button className="bg-white text-primary hover:bg-blue-50 px-6 py-3 rounded-lg flex items-center gap-2 transition-colors">
+              <Link href='/contact' className="bg-white text-primary hover:bg-blue-50 px-6 py-3 rounded-lg flex items-center gap-2 transition-colors">
                 Partner With Us
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </Link>
             </div>
             <div className="relative">
               <img
-                src="https://picsum.photos/600/400"
+                src="/support.jpg"
                 alt="Partnership Impact"
                 className="rounded-xl shadow-2xl"
               />

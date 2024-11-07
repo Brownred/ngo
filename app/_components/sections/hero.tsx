@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Heart, Users, Globe } from 'lucide-react';
+import Link from 'next/link';
 
 const HeroSection = () => {
   return (
@@ -7,7 +8,7 @@ const HeroSection = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://picsum.photos/1920/1080"
+          src="/hero.jpg"
           alt="Community members supported by BSDC"
           className="object-cover w-full h-full"
         />
@@ -28,14 +29,14 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4">
-            <button className="bg-primary hover:bg-primary/80 text-white px-8 py-3 rounded-lg flex items-center gap-2 transition-colors">
+            <Link href='/contact' className="bg-primary hover:bg-primary/80 text-white px-8 py-3 rounded-lg flex items-center gap-2 transition-colors">
               Donate Now
               <Heart className="w-5 h-5" />
-            </button>
-            <button className="bg-white hover:bg-gray-100 text-primary px-8 py-3 rounded-lg flex items-center gap-2 transition-colors">
+            </Link>
+            <Link href='/about' className="bg-white hover:bg-gray-100 text-primary px-8 py-3 rounded-lg flex items-center gap-2 transition-colors">
               Learn More
               <ArrowRight className="w-5 h-5" />
-            </button>
+            </Link>
           </div>
 
           {/* Quick Stats */}

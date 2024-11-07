@@ -18,6 +18,7 @@ import {
   Tooltip,
   ResponsiveContainer
 } from 'recharts';
+import Link from 'next/link';
 
 const ImpactSection = () => {
   type ImpactCategory = 'education' | 'livelihood' | 'healthcare' | 'water';
@@ -161,10 +162,10 @@ const ImpactSection = () => {
             <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
               Your support can help us expand our impact and reach more communities in need.
             </p>
-            <button className="bg-white text-primary hover:bg-blue-50 px-8 py-3 rounded-lg flex items-center gap-2 mx-auto transition-colors">
+            <Link href='/contact' className="bg-white text-primary hover:bg-blue-50 px-8 py-3 rounded-lg flex w-fit items-center gap-2 mx-auto transition-colors">
               Support Our Cause
               <Sprout className="w-5 h-5" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
