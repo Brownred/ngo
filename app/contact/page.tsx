@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Globe } from 'lucide-react';
 
 const ContactUs = () => {
   return (
-    <section className="py-20 bg-gray-50 pt-14 relative">
+    <section className="py-20 md:py-28 bg-gray-50 relative">
       <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-green-500 opacity-10 pointer-events-none"></div>
       
       <div className="container mx-auto px-4">
