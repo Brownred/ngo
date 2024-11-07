@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // pages/about.js
 
 import React from 'react';
@@ -114,7 +115,7 @@ export default function About() {
   );
 }
 
-function FocusCard({ icon, title, description }) {
+function FocusCard({ icon, title, description }: { icon: any, title:any, description:any }) {
   return (
     <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md text-center">
       <div className="text-green-600 text-4xl mb-4">{icon}</div>

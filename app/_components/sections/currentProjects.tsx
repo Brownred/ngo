@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 
 import React, { useState } from 'react';
@@ -12,7 +13,7 @@ import {
   Clock
 } from 'lucide-react';
 
-const ProjectCard = ({ project, onSelect }) => (
+const ProjectCard = ({ project, onSelect }: {project: any, onSelect: any}) => (
   <div 
     onClick={() => onSelect(project)}
     className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer group"
@@ -72,7 +73,7 @@ const ProjectCard = ({ project, onSelect }) => (
   </div>
 );
 
-const ProjectDetails = ({ project, onClose }) => (
+const ProjectDetails = ({ project, onClose }: {project: any, onClose: any}) => (
   <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
     <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
       <div className="p-8">
