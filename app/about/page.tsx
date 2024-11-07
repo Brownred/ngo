@@ -5,9 +5,9 @@ import { FaHandsHelping, FaHeartbeat, FaSeedling, FaSchool, FaWater, FaPeace } f
 
 export default function About() {
   return (
-    <div className="bg-gray-50 text-gray-900 pt-10">
+    <div className="bg-gray-50 text-gray-900 pt-10 md:pt-16">
       {/* Hero Section */}
-      <section className="relative flex items-center justify-center h-96 bg-cover bg-center bg-[url('/path/to/your-hero-image.jpg')]">
+      <section className="relative flex items-center justify-center h-96 bg-cover bg-center bg-[url('/logo.jpg')]">
         <div className="bg-black bg-opacity-50 p-8 text-center text-white rounded-lg max-w-xl mx-auto">
           <h1 className="text-4xl font-bold">About Barwaqo Social Development Committee</h1>
           <p className="mt-4 text-lg">Empowering communities for sustainable development, peace, and prosperity in Somalia.</p>

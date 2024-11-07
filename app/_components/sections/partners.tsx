@@ -12,7 +12,7 @@ const SponsorsPartners = () => {
     {
       name: "United Nations Development Programme (UNDP)",
       category: "International Organization",
-      image: "/sp1.jpg",
+      image: "/sp5.png",
       type: "Major Partner",
       description: "Supporting sustainable livelihoods and governance initiatives.",
       since: "2018"
@@ -104,7 +104,7 @@ const SponsorsPartners = () => {
                   alt={sponsor.name}
                   className="w-full h-auto object-contain mb-4 group-hover:scale-105 transition-transform"
                 />
-                <p className="text-sm font-medium text-center">{sponsor.name}</p>
+                {/* <p className="text-sm font-medium text-center">{sponsor.name}</p> */}
                 {/* <span className="text-xs text-gray-500">Since {sponsor.since}</span> */}
               </div>
             ))}

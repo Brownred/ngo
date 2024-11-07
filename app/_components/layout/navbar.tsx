@@ -20,7 +20,7 @@ const Navbar = () => {
           {/* Logo and Organization Name */}
           <div className="flex items-center space-x-4">
             <img 
-              src="https://picsum.photos/50/50" 
+              src="/logo.jpg" 
               alt="BSDC Logo" 
               className="h-12 w-12 rounded-full"
             />
