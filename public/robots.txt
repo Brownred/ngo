@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://bsdc.so/sitemap.xml
+
+Disallow: /api/
+Disallow: /admin/
