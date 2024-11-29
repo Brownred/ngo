@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 
 interface BlogPost {
   id: string;

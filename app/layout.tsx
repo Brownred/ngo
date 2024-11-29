@@ -18,9 +18,49 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "NGO Website",
-  description: "An impactful NGO website built with Next.js and Tailwind CSS.",
-};
+  metadataBase: new URL('https://bsdc.so'),
+  title: {
+    default: 'BSDC - Empowering Communities, Creating Change',
+    template: '%s | BSDC NGO'
+  },
+  description: 'BSDC is a dedicated non-profit organization working to transform communities through sustainable development, education, and social innovation.',
+  applicationName: 'BSDC NGO',
+  keywords: [
+    'NGO', 'community development', 'social impact', 'nonprofit', 
+    'sustainability', 'social innovation', 'community empowerment'
+  ],
+  authors: [{ name: 'BSDC Team', url: 'https://bsdc.so' }],
+  creator: 'BSDC NGO Team',
+  publisher: 'BSDC',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1
+    }
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://bsdc.so',
+    title: 'BSDC - Empowering Communities, Creating Change',
+    description: 'BSDC is a dedicated non-profit organization working to transform communities through sustainable development, education, and social innovation.',
+    siteName: 'BSDC NGO',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BSDC - Empowering Communities, Creating Change',
+    description: 'BSDC is a dedicated non-profit organization working to transform communities through sustainable development, education, and social innovation.',
+  },
+  verification: {
+    google: 'your-google-site-verification-code',
+    // Add other verification codes as needed
+  }
+}
 
 export default function RootLayout({
   children,
