@@ -20,18 +20,22 @@ const lato = Lato({
 export const metadata: Metadata = {
   metadataBase: new URL('https://bsdc.so'),
   title: {
-    default: 'BSDC - Empowering Communities, Creating Change',
-    template: '%s | BSDC NGO'
+    default: 'Barwaqo Social Development Committee (BSDC) - Empowering Somali Communities',
+    template: '%s | BSDC - Community Development in Somalia'
   },
-  description: 'BSDC is a dedicated non-profit organization working to transform communities through sustainable development, education, and social innovation.',
-  applicationName: 'BSDC NGO',
+  description: 'BSDC is a dedicated non-profit organization transforming communities in Somalia through sustainable development, humanitarian assistance, and peacebuilding initiatives since 2020.',
+  applicationName: 'Barwaqo Social Development Committee',
   keywords: [
-    'NGO', 'community development', 'social impact', 'nonprofit', 
-    'sustainability', 'social innovation', 'community empowerment'
+    'Somalia NGO', 'humanitarian assistance', 'community development', 
+    'sustainable livelihoods', 'peacebuilding', 'water sanitation', 
+    'health nutrition', 'education protection', 'environmental conservation',
+    'Kismayo', 'Badhaadhe', 'Afmadow', 'Jamaame', 'Dhobley', 
+    'Elberde', 'Yeed', 'Mogadishu'
   ],
-  authors: [{ name: 'BSDC Team', url: 'https://bsdc.so' }],
-  creator: 'BSDC NGO Team',
+  authors: [{ name: 'BSDC Team', url: 'https://bsdc.so/about' }],
+  creator: 'Barwaqo Social Development Committee',
   publisher: 'BSDC',
+  
   robots: {
     index: true,
     follow: true,
@@ -43,22 +47,38 @@ export const metadata: Metadata = {
       'max-snippet': -1
     }
   },
+  
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://bsdc.so',
-    title: 'BSDC - Empowering Communities, Creating Change',
-    description: 'BSDC is a dedicated non-profit organization working to transform communities through sustainable development, education, and social innovation.',
+    title: 'Barwaqo Social Development Committee - Transforming Communities in Somalia',
+    description: 'BSDC is a dedicated non-profit organization transforming communities in Somalia through sustainable development, humanitarian assistance, and peacebuilding initiatives since 2020.',
     siteName: 'BSDC NGO',
+    images: [
+      {
+        url: '/logo.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'BSDC Logo - Empowering Somali Communities'
+      }
+    ]
   },
+  
   twitter: {
     card: 'summary_large_image',
-    title: 'BSDC - Empowering Communities, Creating Change',
-    description: 'BSDC is a dedicated non-profit organization working to transform communities through sustainable development, education, and social innovation.',
+    title: 'Barwaqo Social Development Committee - Empowering Somali Communities',
+    description: 'BSDC is a dedicated non-profit organization transforming communities in Somalia through sustainable development, humanitarian assistance, and peacebuilding initiatives since 2020.',
+    images: ['/logo.jpg']
   },
-  verification: {
-    google: 'your-google-site-verification-code',
-    // Add other verification codes as needed
+  
+  // verification: {
+  //   google: 'your-google-site-verification-code',
+  //   // Add other verification codes as needed
+  // },
+  
+  alternates: {
+    canonical: 'https://bsdc.so'
   }
 }
 
