@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import React from 'react';
 
-export const aboutPageMetadata: Metadata = {
+export const metadata: Metadata = {
     title: 'About BSDC - Our Mission, Vision, and Impact in Somalia',
     description: 'Learn about Barwaqo Social Development Committee\'s journey since 2020, our core values, areas of focus, and commitment to sustainable community development in Somalia.',
     keywords: [
