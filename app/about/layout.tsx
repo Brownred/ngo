@@ -10,11 +10,12 @@ export const aboutPageMetadata: Metadata = {
     ]
   }
 
-interface AboutLayoutProps {
-    children: React.ReactNode;
-}
 
-const AboutLayout: React.FC<AboutLayoutProps> = ({ children }) => {
+export default function AboutLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
     return (
         <div>
            
@@ -23,5 +24,3 @@ const AboutLayout: React.FC<AboutLayoutProps> = ({ children }) => {
         </div>
     );
 };
-
-export default AboutLayout;
