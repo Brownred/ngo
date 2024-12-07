@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     siteName: 'BSDC NGO',
     images: [
       {
-        url: '/logo.jpg',
+        url: 'https://bsdc.so/logo.jpg',
         width: 1200,
         height: 630,
         alt: 'BSDC Logo - Empowering Somali Communities'
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Barwaqo Social Development Committee - Empowering Somali Communities',
     description: 'BSDC is a dedicated non-profit organization transforming communities in Somalia through sustainable development, humanitarian assistance, and peacebuilding initiatives since 2020.',
-    images: ['/logo.jpg']
+    images: ['https://bsdc.so/logo.jpg']
   },
   
   // verification: {
