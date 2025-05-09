@@ -12,7 +12,7 @@ const ContactUs = () => {
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-gray-800 mb-4">Get in Touch</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Reach out for partnership opportunities, inquiries, or to learn more about our work. We’d love to hear from you!
+            Reach out for partnership opportunities, inquiries, or to learn more about our work. We'd love to hear from you!
           </p>
         </div>
 
@@ -32,8 +32,9 @@ const ContactUs = () => {
               <div className="flex items-center gap-4">
                 <Phone className="w-7 h-7 text-green-600" />
                 <div>
-                  <p className="text-gray-900 font-bold">+252 616 308 339</p>
-                  <p className="text-gray-900 font-bold">+252 619 437 121</p>
+                  <p className="text-gray-900 font-bold">MOGADISHU Office: +252 61 6705858</p>
+                  <p className="text-gray-900 font-bold">Kismayo Office: +252 61 6986455</p>
+                  <p className="text-gray-900 font-bold">Dubai Office: +971 55 741 1718</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
