@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Mail, Phone,  Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -62,13 +62,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">Our Offices</h3>
             <div className="space-y-3">
-              <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-green-400 mt-1" />
-                <p className="text-gray-400">
-                  Faanole, Kismayo<br />
-                  Jubaland State of Somalia
-                </p>
-              </div>
+              
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-green-400" />
                 <div className="text-gray-400">
